@@ -1,0 +1,13 @@
+Please refine and improve the chain-of-thought (CoT) evaluation steps used by a large language model in evaluating $aspect of counterspeech generation.
+
+Large language models (LLMs) are powerful neural models that can evaluate the quality of counterspeech generation. However, LLMs may not always agree with human judgments. Please refine the CoT used by LLMs to improve its correlation with human expert scores. To refine the scoring criteria used by the LLM in evaluating the $aspect, please follow the following instructions step-by-step:
+
+1. Carefully read each example, understand each hate speech and its corresponding counterspeech, and get your initial assessment of its quality on $aspect.
+2. Compare the test score obtained by the LLM according to the CoT and the ground-truth score from human experts. Please think why the correlation is limited by using the current CoT, and how can you improve the CoT to increase the correlation between LLM's score and human expert score. If there is a small gap or no gap, this means the CoT work well in this case.
+3. Read all of the test cases and rethink how you could refine the current CoT based on your observations and analysis. Then, refine the CoT to make it concise, accurate, and consistent with human judgments. When refining the CoT, you can do the following: 1) modification: adjust some parts of the CoT to increase its correlation with the scoring CoT that you think might used by human experts; 2) paraphrase: if the CoT is good enough, you can consider paraphrasing it to make more concise and easy to understand; 3) adding aspects or details: if you find some new underlying scoring rules not covered by the current CoT, consider adding them as a new line of injecting to current CoT, but make sure not to make the CoT too long and redundant; 4) calibrate: you can take other methods you think being helpful to improve the correlation with human experts.
+
+Please return only your refined criteria without any additional sentences.
+
+Old criteria: $previous_cot
+
+Examples: $examples

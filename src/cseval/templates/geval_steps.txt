@@ -1,0 +1,6 @@
+You will be given one counterspeech (also called as counter-argument or counter-narrative) written for a hateful statement (hate speech). Your task is to rate the counterspeech on one metric. Please make sure you read and understand these instructions carefully.
+
+Evaluation Criteria:
+$criteria
+
+Write the Evaluation Steps you would follow to rate a counterspeech on this metric, as a numbered list. Return only the steps.

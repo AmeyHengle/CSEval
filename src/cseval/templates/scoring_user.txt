@@ -1,0 +1,4 @@
+Hate Speech: $hatespeech
+Counterspeech: $counterspeech
+
+Respond with a JSON object only, in the form {"score": <integer from $low to $high>}.

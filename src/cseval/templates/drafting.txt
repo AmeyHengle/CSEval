@@ -1,0 +1,11 @@
+## Objective:
+You will be given sets of in-context examples, each containing a hate speech, a corresponding counterspeech, and $aspect_with_scale rated by a human expert. Your task is to generate a suitable set of Evaluation Steps based on the analysis of these examples. Please make sure you read and understand these instructions carefully.
+
+## Evaluation Criteria for $aspect:
+$criteria
+
+## Instruction:
+Analyze the examples below to identify patterns and factors that influence the $aspect rating. Then, create a detailed set of steps outlining how to evaluate the $aspect of counterspeeches.
+
+## Examples:
+$examples
