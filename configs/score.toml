@@ -1,0 +1,19 @@
+[data]
+dir = "data/CSEval-hf"
+split = "test"
+
+[model]
+provider = "openai"
+name = "gpt-4o-2024-08-06"
+cache = ".cache/llm.sqlite"
+
+[judge]
+kind = "zero-shot"
+calibration_run = ""
+aspects = ["relevance", "coherence", "aggressiveness", "suitableness"]
+temperature = 0.0
+max_tokens = 64
+retries = 1
+
+[run]
+dir = "runs"

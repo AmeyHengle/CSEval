@@ -1,0 +1,24 @@
+[data]
+dir = "data/CSEval-hf"
+
+[model]
+provider = "openai"
+name = "gpt-4o-2024-08-06"
+cache = ".cache/llm.sqlite"
+
+[calibration]
+aspects = ["relevance", "coherence", "aggressiveness", "suitableness"]
+n_trials = 10
+shot_sizes = [3]
+top_k = 3
+draft_temperature = [0.0, 0.5]
+refine_temperature = 0.5
+scoring_temperature = 0.0
+misaligned_pool = 3
+misaligned_shots = 3
+eval_size = 500
+selection_level = "dataset"
+seed = 13
+
+[run]
+dir = "runs"
